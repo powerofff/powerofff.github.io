@@ -1,117 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
   
-  
-  
+  <title>So sleepy博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>
-    
-    So sleepy博客</title>
+  <meta property="og:type" content="website">
+<meta property="og:title" content="So sleepy博客">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="So sleepy博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Sosleepy">
+<meta name="twitter:card" content="summary">
   
-    <link rel="shortcut icon" href="/favicon.ico">
   
+
+  <script type="text/javascript">
+  function jqueryLoaded() {
+    window.postMessage('jquery-load', '*');
+  }
+  </script>
+
   
 <link rel="stylesheet" href="/css/style.css">
 
-  
-<link rel="stylesheet" href="/css/technology.css">
+
+  <script defer src="https://use.fontawesome.com/a49b4f783c.js"></script>
+  <script defer src="//code.jquery.com/jquery-3.2.1.min.js" onload="jqueryLoaded()"></script>
+  <script defer src="/js/script.js"></script>
 
   
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+    window.addEventListener("message", function(msg) {
+      if(msg.data === 'jquery-load') {
+        $('head').append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />');
+      }
+    });
+    </script>
   
-  
-<script src="/js/pace.min.js"></script>
-
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body>
   <div id="container">
-    <div id="wrap">
-      <canvas id="canvas"></canvas>
-<div class="technology-body">
-    <div class="technology-frame">
-      <section>
-        <div></div>
-        <div></div>
-        <div></div>
-      </section>
-      <section>
-        <div></div>
-        <div></div>
-        <div></div>
-      </section>
-      <section>
-        <div></div>
-        <div></div>
-        <div></div>
-      </section>
-      <section>
-        <div></div>
-        <div></div>
-        <div></div>
-      </section>
+    <header id="header">
+  <div class="outer">
+    <div class="title">
+      <a href="/" id="logo"><h1>So sleepy博客</h1></a>
+      <div></div>
     </div>
-    <section class="technology-circle">
-      <div class="wrap">
-        <div class="inner">
-          <div class="middle">
-            <div class="middle2">
-            </div>
-          </div>
-        </div>
+    <div class="flex-spacer"></div>
+    <nav class="nav">
+      <div>
+        
+          <a href="/" class="nav-link">Blog</a>
+        
+          <a href="/about/" class="nav-link">About</a>
+        
       </div>
-    </section>
-    <section class="technology-nav">
-      <nav class="nav-box">
-        <section>
-          <a data-href="profile-page" data-color="pink" href="/about/">About me</a>
-          <a class="nav-item-search" data-href="memories-page" data-color="light-pink" href="javascript:;">Search</a>
-        </section>
-        <section>
-          <a data-href="history-page" data-color="light-purple" href="/gallery/">Gallery</a>
-          <a data-href="product-page" data-color="purple" href="/archives/">Archives</a>
-        </section>
-      </nav>
-      <div class="message"><h3>科幻世界</h3></div>
-    </section>
-    <div class="video-inner text-center text-white">
-      <h1 style="text-align: center">So sleepy博客</h1>
+    </nav>
+  </div>
+</header>
+
+    <div class="outer sidebar">
+      <section id="main">
+  <div class="post card">
+    <div class="border-bottom">
+      <a href="http://example.com/2021/11/16/hello-world/">
+        <h1 class="article-title ">Hello World</h1>
+      </a>
+      <time datetime="2021-11-16T04:41:34.946Z" itemprop="datePublished">2021-11-16</time>
+    </div>
+    <div class="content">
+      
       <p></p>
-      <div class="brand-wapper" ><img src="/images/hexo-inverted.png" class="brand" alt="So sleepy博客"></div>
+      <a href="http://example.com/2021/11/16/hello-world/">Read More...</a>
     </div>
-  </div>
-  <div class="search-form-wrap">
-    <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
-</div>
   </div>
 
-    </div>
+
+</section>
+      
+        <aside id="sidebar">
+  <div class="card">
     
-<script src="/js/jquery-2.0.3.min.js"></script>
+      <div id="about-widget">
+  <p>Hello, <br>This is where you would write something short about yourself</p>
+  <div class="user-image">
+    <img src="/css/images/portrait.png">
+  </div>
+  <p class="border-bottom"></p>
+</div>
 
+    
+      <div id="contact-widget">
+  <div>Contact:</div>
+  <p>Feel free to <a href="mailto:undefined" title="send me an email">send me an email</a> anytime</p>
+</div>
 
-<script src="/js/lazyload.min.js"></script>
+    
+  </div>
+</aside>
 
-
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
-
-
-
+      
+    </div>
+    <footer id="footer">
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2021 Sosleepy
+      <span class="pull-right">
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+    
 
 
-
-
-
-
-<script src="/js/technology.js"></script>
 
 
   </div>
